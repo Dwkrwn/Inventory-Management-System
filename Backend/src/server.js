@@ -8,7 +8,7 @@ const start = async () => {
     console.log('[DB] Koneksi PostgreSQL berhasil');
 
     app.listen(env.port, () => {
-      console.log(`[SERVER] API berjalan di http://localhost:${env.port}`);
+      console.log(`[SERVER] API berjalan pada port ${env.port}`);
     });
   } catch (err) {
     console.error('[DB] Gagal koneksi ke PostgreSQL:', err.message);

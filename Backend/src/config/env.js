@@ -10,7 +10,7 @@ const env = {
     password: process.env.DB_PASSWORD || '',
   },
   jwt: {
-    secret: process.env.JWT_SECRET || 'inventory_secret',
+    secret: process.env.JWT_SECRET,
     expiresIn: process.env.JWT_EXPIRES_IN || '8h',
   },
 };
