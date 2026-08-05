@@ -94,7 +94,7 @@ onMounted(load)
           <BaseBadge type="danger">{{ stats.jumlah_stok_menipis }} barang</BaseBadge>
         </div>
         <div class="overflow-x-auto">
-          <table class="w-full min-w-[640px]">
+          <table class="w-full min-w-640px">
             <thead>
               <tr class="border-b border-slate-200 dark:border-slate-700">
                 <th class="th">Kode</th>

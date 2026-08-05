@@ -234,7 +234,7 @@ onMounted(async () => {
 
     <BaseCard>
       <div class="overflow-x-auto">
-        <table class="w-full min-w-[900px]">
+        <table class="w-full min-w-900px">
           <thead>
             <tr class="border-b border-slate-200 dark:border-slate-700">
               <th class="th w-14">No</th>
